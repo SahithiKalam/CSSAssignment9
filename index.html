@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cd{
+            height: 60vh;
+            width: 35vw;
+            display: grid;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area4 area5 area7';
+        }
+        .img1{
+            height: 200px;
+            width: 150px;
+            grid-area: area1;
+        }
+        .img2{
+            grid-area: area2;
+        }
+        .img3{
+            grid-area: area3;
+        }
+        .img4{
+            height: 200px;
+            position: relative;
+            top: 10px;
+            grid-area: area4;
+        }
+        .img5{
+            height: 220px;
+            width: 150px;
+            grid-area: area5;
+            position: relative;
+            top: -50px;
+        }
+        .img6{
+            position: relative;
+            top: -50px;
+            grid-area: area6;
+            
+        }
+        .img7{
+            position: relative;
+            top: -40px;
+            grid-area: area7;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cd">
+        <img class="img img1" src="./Assests/images/flowergrid.jpeg">
+        <img class="img img2" style="height: 120px; width: 150px;" src="./Assests/images/coffee.jpeg">
+        <img class="img img3" style="height: 120px; width: 150px;" src="./Assests/images/flowerpot.jpeg">
+        <img class="img img4" style="width: 150px;" src="./Assests/images/table1.jpeg">
+        <img class="igm img5" src="./Assests/images/lamp2.jpg">
+        <img class="img img6" style="height: 100px; width: 150px;" src="./Assests/images/sunglass1.jpeg">
+        <img class="img img7" style="height: 100px; width: 150px;" src="./Assests/images/cameralens.jpeg">
+    </div>
+</body>
+</html>
